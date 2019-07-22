@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:pink;
+
+}
+.navbar{
+    height: 2cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 50px;
+    color: pink;
+    margin-right: 3.5cm;
+}
+.navbar-button1{
+    color: black;
+    background-color: white;
+    border: white 0px;
+    border-radius: 5px;
+    width: 3cm;
+    height: 1.2cm;
+    cursor: pointer;
+    margin-left: 13cm;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.navbar-button2{
+    color: black;
+    background-color: aqua;
+    border: white 0px;
+    border-radius: 5px;
+    width: 3cm;
+    height: 1.2cm;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.text-titre{
+    margin-top: 5cm;
+    margin-left: 2cm;
+    margin-right: 1cm;
+}
+.text span{
+    font: bold;
+}
+
+.logo2,.t1{
+    display: flex;
+
+}
+.logo2{
+    display: flex;
+   
+}
+.yellow-green-blue{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    width: 33.33%;
+    background-color: rgb(254, 210, 74);
+    height: 9cm;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blue .logo2{
+    margin-right:73px;
+}
+
+.far , .fas , .fa-book{
+    font-size: 1.8cm;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.green{
+    width: 33.33%;
+    background-color: rgb(81, 194, 159);
+    height: 9cm;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blue{
+    width: 33.33%;
+    background-color:rgb(62, 169, 245);
+    height: 9cm;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t1{
+    font-size: 1cm;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.t2{
+    font-size: 0.7cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons{
+    color: black;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 5px;
+    width: 4.5cm;
+    height: 1.7cm;
+    margin-right: 2cm;
+    margin-top: 0.3cm;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.picture img { 
+    width: 18cm;
+    height: 17cm;
+}
+
+.titre2 span{
+    color: white;
+}
+.navbar-button3{
+    color: black;
+    background-color: white;
+    border: white 0px;
+    border-radius: 5px;
+    width: 4.5cm;
+    height: 1.7cm;
+    margin-left:1.2cm;
+    margin-top: 1cm;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.buttons:hover  .logo2{
+    font-size: 20cm;
+}
+
+.buttons span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+} 
+.navbar:hover{
+        background-color: palevioletred;
+        color: black;
+    }
+.buttons span:after{
+        content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+    } 
+.buttons:hover span{
+        padding-right: 25px;
+    } 
+.buttons:hover span:after{
+        opacity: 1;
+        right: 0;
+    }
+.navbar-button1 span , .navbar-button2 span , .text span  {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    } 
+.navbar-button1 span:after , .navbar-button2 span:after , .text span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+.navbar-button1:hover span , .navbar-button2:hover span , .text:hover span {
+        padding-right: 25px;
+    }  
+.navbar-button1:hover span:after , .navbar-button2:hover span:after , .text:hover span:after  {
+        opacity: 1;
+        right: 0;
+    }
+.text{
+    text-decoration: none;
+    color: white;
+    font-size: 0.5cm;
+    text-shadow: 1.3px 1px black;
+    margin: 0.5cm;
+}
+.big-menu{
+    display: flex; 
+}
+.titre2{
+    font-size: 1.3cm;
+    margin-left: 1cm;
+}
+
+
+.first{
+    margin-top: 3cm;
+    margin-left: 0.5cm;
+}
+
+b{
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.white1 b {
+    font:bold;
+}
+.white{
+    height: 9cm;
+    display: flex;
+    background-color: white;
+}
+.images{
+    width: 6cm;
+    height: 3cm;
+    margin-left: 1cm;
+    margin-top: 2.8cm;
+}
+
+.white1{
+    background-color: white;
+    display:flex;
+    justify-content: center; 
+}
+
+.images2{
+    width: 10cm;
+    height: 6cm;
+}
+
+.images2:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+    color:aqua;
+}
+
+.i1,.i2,.i3{
+    margin: 1cm;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: space-between;
+    display: inline-block;
+}
+.texty{
+    margin-top: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font:bold;
+    color: black;
+    font-size: 16px;;
+
+}
+
+a{
+    font-size: 20px;
+}
+.grey{
+    background-color:rgb(239, 239, 239);
+    height: 1.5cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    font: bold;
+    font-size: 33px;
+    color: white;
+    margin-left: 3cm;
+    background-color:#2A2D35;
+}
+
+.last{
+    background-color: #2A2D35;
+    height: 10cm;
+    display: flex;
+    padding-top: 2.5cm;
+}
+.shit{
+    margin-left: 3cm;
+    font-size: 22px;
+    color: white;
+}
+.links{
+    text-decoration: none;
+    color: green;
+    font-size:20px;
+}
+.aa{
+    margin-left: 3cm;
+}
+.vertical-hr{
+    border-left: 2px solid white;
+    height: 150px;
+    margin-left: 2cm;
+    margin-top: 0.3cm;
+  
+}
+
+.l1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5cm;
+    margin-bottom: 2cm;
+}
+
+.last-title{
+    font-size: 15px;
+    color: 9CA8B7;
+
+}
+
+.last-buttons{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.last-buttons-bottom{
+    font-size: 15px;
+    margin-top: 5px;
+    color: blue;
+    text-decoration: none;
+}
+.asas{
+    width: 1.5cm;
+    height: 0.6cm;
+}
+.copy-rights{
+    font-size: 20px;
+    color: white;
+    background-color:#2A2D35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
